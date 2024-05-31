@@ -1,0 +1,49 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "gmail-send": "^1.2.14",
+    "jsonwebtoken": "^8.2.0",
+    "mailgun-js": "^0.20.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.3",
+    "nodemailer": "^4.6.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "expect": "^23.4.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmcateer/GYG-MERN-PROJECT-SERVER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianmcateer/GYG-MERN-PROJECT-SERVER/issues"
+  },
+  "homepage": "https://github.com/ianmcateer/GYG-MERN-PROJECT-SERVER#readme",
+  "description": ""
+}
